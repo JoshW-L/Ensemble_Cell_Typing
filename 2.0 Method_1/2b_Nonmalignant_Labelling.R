@@ -1,10 +1,11 @@
 print(getwd())
 source("0_Functions.R")
 
-# Load Seurat objects
+# Load List of Seurat objects that have been clustered
 seu_split <- readRDS("Seurat Objects/Transfer Report Pipeline Mk3/2.0 Method_1/2a Initial_Clustering.Rds")
 
 # ----------------------------  Define marker genes by category ---------------------------------
+# List of Markers for Immune and Endo
 marker_list <- list(
   Immune = c("PTPRC"),
   Endothelial = c("CDH5", "VWF")
