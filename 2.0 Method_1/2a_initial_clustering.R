@@ -1,12 +1,12 @@
 print(getwd())
 source("0_Functions.R")
 
-# Load Seurat objects
+# Load Seurat objects in a List Split by Patient and P/R status
 seu_split <- readRDS("Seurat Objects/Transfer Report Pipeline Mk3/1.0 QC/sObj.Rds")
 
-# ----------------------------  Normalize, Scale and Cluster ---------------------------------
+# ----------------------------  Normalise, Scale and Cluster ---------------------------------
 
-## pre-process data function
+## Normalise and Cluster Function
 clusterCells <- function(sObj, sample_name){
   sObj <- NormalizeData(sObj)
   sObj <- ScaleData(object = sObj, features = rownames(sObj))
