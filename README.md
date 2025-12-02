@@ -1,7 +1,7 @@
 
 # Ensemble Cell Typing
 
-![Pipeline Overview](images/Cell Typing pipeline.png)
+![Pipeline Overview](images/Cell%20Typing%20pipeline.png)
 
 ## Overview
 This repository contains R scripts for an ensemble-based cell typing pipeline. The method integrates multiple clustering and classification approaches to improve cell type annotation accuracy in single-cell RNA-seq data.
