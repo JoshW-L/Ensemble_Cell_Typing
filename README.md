@@ -10,6 +10,6 @@ This repository contains R scripts for an ensemble-based cell typing pipeline. T
 - **Quality Control**: Preprocessing and filtering of raw data.
 - **Multiple Methods**: Implements several clustering and labeling strategies.
 - **Ensemble Voting**: Combines predictions from different methods for robust cell type assignment.
-- **Evaluation**: Provides metrics and visualization for method comparison.
+- **Evaluation**: Provides metrics and visualisation for method comparison.
 
 
