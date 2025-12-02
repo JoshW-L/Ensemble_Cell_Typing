@@ -1,0 +1,36 @@
+{
+    "debugBreakpointsState": {
+        "breakpoints": [
+            {
+                "id": 2,
+                "path": "~/Library/CloudStorage/OneDrive-UniversityofLeeds/PhD/Chapter 1/Analyses/Transfer Report Pipeline Mk3/8.0 Method_Evaluation/8b_FindMarkers_Merged.R",
+                "line_number": 59,
+                "function_steps": "",
+                "function_name": "toplevel",
+                "state": 1,
+                "editor_state": 1,
+                "editor_line_number": 59,
+                "is_pending_debug_completion": false,
+                "needs_updated_steps": false,
+                "type": 1,
+                "is_package_breakpoint": false,
+                "package_name": ""
+            },
+            {
+                "id": 4,
+                "path": "~/Library/CloudStorage/OneDrive-UniversityofLeeds/Shoaib Analysis/Cell typing/Analysis/Transfer Report Pipeline Mk3/5.0 Method_4/5a_Filter_Immune_Endo_labelling_by_cell.R",
+                "line_number": 178,
+                "function_steps": "",
+                "function_name": "toplevel",
+                "state": 1,
+                "editor_state": 1,
+                "editor_line_number": 178,
+                "is_pending_debug_completion": false,
+                "needs_updated_steps": false,
+                "type": 1,
+                "is_package_breakpoint": false,
+                "package_name": ""
+            }
+        ]
+    }
+}
